@@ -1,0 +1,21 @@
+
+actions:
+- utter_greet_named
+- utter_goodbye
+- utter_greet_q
+entities:
+- name
+intents:
+- greet
+- name_in
+- goodbye
+slots:
+  name:
+    type: text
+templates:
+  utter_goodbye:
+  - text: Goodbye
+  utter_greet_named:
+  - text: Hey, nice to meet you again {name}
+  utter_greet_q:
+  - text: Hey, nice to meet you. What's your name?

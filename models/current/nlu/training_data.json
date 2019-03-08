@@ -2,12 +2,12 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "hi"
-      },
-      {
         "intent": "goodbye",
         "text": "bye"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
       },
       {
         "intent": "name_in",
@@ -16,7 +16,7 @@
             "start": 11,
             "end": 17,
             "value": "Sharan",
-            "entity": "text"
+            "entity": "name"
           }
         ],
         "text": "my name is Sharan"
@@ -28,7 +28,7 @@
             "start": 0,
             "end": 6,
             "value": "george",
-            "entity": "text"
+            "entity": "name"
           }
         ],
         "text": "george"
@@ -40,7 +40,7 @@
             "start": 0,
             "end": 7,
             "value": "michael",
-            "entity": "text"
+            "entity": "name"
           }
         ],
         "text": "michael"
@@ -52,10 +52,22 @@
             "start": 0,
             "end": 6,
             "value": "justin",
-            "entity": "text"
+            "entity": "name"
           }
         ],
         "text": "justin"
+      },
+      {
+        "intent": "name_in",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "anand",
+            "entity": "name"
+          }
+        ],
+        "text": "i am called anand"
       }
     ],
     "regex_features": [],

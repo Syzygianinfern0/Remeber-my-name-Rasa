@@ -1,0 +1,30 @@
+%YAML 1.1
+---
+actions:
+- utter_greet_named
+- utter_goodbye
+- utter_greet_q
+config:
+  store_entities_as_slots: true
+entities:
+- name
+forms: []
+intents:
+- greet:
+    use_entities: true
+- name_in:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots:
+  name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: Goodbye
+  utter_greet_named:
+  - text: Hey, nice to meet you again {name}
+  utter_greet_q:
+  - text: Hey, nice to meet you. What's your name?

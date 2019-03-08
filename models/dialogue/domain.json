@@ -1,0 +1,16 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_name_in",
+    "entity_name",
+    "slot_name_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_utter_greet_named",
+    "prev_utter_goodbye",
+    "prev_utter_greet_q"
+  ]
+}
