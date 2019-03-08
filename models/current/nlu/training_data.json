@@ -1,0 +1,65 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "name_in",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Sharan",
+            "entity": "text"
+          }
+        ],
+        "text": "my name is Sharan"
+      },
+      {
+        "intent": "name_in",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "george",
+            "entity": "text"
+          }
+        ],
+        "text": "george"
+      },
+      {
+        "intent": "name_in",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "michael",
+            "entity": "text"
+          }
+        ],
+        "text": "michael"
+      },
+      {
+        "intent": "name_in",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "justin",
+            "entity": "text"
+          }
+        ],
+        "text": "justin"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
